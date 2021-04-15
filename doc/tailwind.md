@@ -4,7 +4,7 @@
 
 Consider a new project and follow these steps :
 
-- Our project directory will be looking this -
+- Project directory will be looking this -
 
 ```bash
 - <project-name>
@@ -19,9 +19,6 @@ Consider a new project and follow these steps :
 	- src
         - css
             - tailwind.css
-        - svg
-            - react.svg
-            - twcss.svg
         - App.js
         - index.js
         - reportWebVitals.js
@@ -30,7 +27,6 @@ Consider a new project and follow these steps :
     - package.json
     - postcss.config.js
     - tailwind.config.js
-
 ```
 
 **Step 1**
@@ -59,7 +55,7 @@ In your _CLI_ run the following command -
 npm run build:css:dev
 ```
 
-This will download all required classes which are required for styling in HTML inside `./<project-name>/src/css/dev/styles.css`
+This will download all required classes which are required for styling in HTML inside `./<project-name>/src/css/build/dev/styles.css`
 
 ## Purge TailwindCSS file in React file
 
@@ -101,9 +97,9 @@ Now run the following command in your CLI -
 npm run build:css:prod
 ```
 
-This will store the purged css file as `main.css` in `./<project-name>/src/css/prod/styles.css`
+This will store the purged css file as `main.css` in `./<project-name>/src/css/build/main/styles.css`
 
 ## More resource on TailwindCSS
 
-[TailwindCSS official Docs](https://tailwindcss.com/docs)
-[Installation and Purge TailwindCSS](https://flaviocopes.com/tailwind-setup/)
+- [TailwindCSS official Docs](https://tailwindcss.com/docs)
+- [Installation and Purge TailwindCSS](https://flaviocopes.com/tailwind-setup/)

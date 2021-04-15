@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "react-tailwind-boilerplate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,8 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:css:dev": "postcss src/css/tailwind.css -o src/css/build/styles.css",
-    "build:css:prod": "postcss src/css/tailwind.css -o src/css/main.css",
+    "build:css:dev": "postcss src/css/tailwind.css -o src/css/build/dev/styles.css",
+    "build:css:prod": "postcss src/css/tailwind.css -o src/css/build/prod/main.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

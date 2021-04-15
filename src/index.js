@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import "./css/main.css";
+// Add css file here
 import App from "./App";
-
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

@@ -1,5 +1,7 @@
 # React + Tailwind CSS boilerplate
 
+- [Official boilerplate webpage](https://react-tailwind-boilerplate-docx.netlify.app)
+
 ## Installation
 
 - To install, use the following command
